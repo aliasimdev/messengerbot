@@ -7,12 +7,12 @@ description: A simple bot
 avatar: 
 background: 
 config:
-  - name: verifytoken
+  - name: FACEBOOK_VERIFY_TOKEN
     friendly_name: Verify Token
     info: This is the value that will get passed to your Bot as FACEBOOK_VERIFY_TOKEN
     default: the default value
     global: true
-  - name: pageaccesstoken
+  - name: FACEBOOK_PAGE_ACCESS_TOKEN
     friendly_name: Page Access Token
     info: This is the value that will get passed to your Bot as FACEBOOK_PAGE_ACCESS_TOKEN
     default: the default value
