@@ -1,4 +1,5 @@
 name: msgflowbot
+friendly_name: Facebook Settings
 author: Ali
 author_avatar: 
 email: ali.cmd@gmail.com
@@ -10,7 +11,7 @@ config:
     friendly_name: Verify Token
     info: This is the value that will get passed to your Bot as FACEBOOK_VERIFY_TOKEN
     default: the default value
-    type: secret
+    global: true
   - name: pageaccesstoken
     friendly_name: Page Access Token
     info: This is the value that will get passed to your Bot as FACEBOOK_PAGE_ACCESS_TOKEN
