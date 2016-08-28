@@ -6,15 +6,15 @@ description: A simple bot
 avatar: 
 background: 
 config:
-  - name: msgflowbot
-    friendly_name: msgflowbot
-    info: This is an unnecessary option
+  - name: verifytoken
+    friendly_name: Verify Token
+    info: This is the value that will get passed to your Bot as FACEBOOK_VERIFY_TOKEN
     default: the default value
-  - name: SECRET
-    friendly_name: Shhhh
-    info: This is an secret option
     type: secret
-    default: not secret though
+  - name: pageaccesstoken
+    friendly_name: Page Access Token
+    info: This is the value that will get passed to your Bot as FACEBOOK_PAGE_ACCESS_TOKEN
+    default: the default value
     global: true
 slackscopes:
   - bot
