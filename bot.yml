@@ -17,6 +17,11 @@ config:
     info: This is the value that will get passed to your Bot as FACEBOOK_PAGE_ACCESS_TOKEN
     default: the default value
     global: true
+  - name: PORT
+    friendly_name: Page Access Token
+    info: This is the value that will get passed to your Bot as PORT
+    default: the default value
+    global: true
 slackscopes:
   - bot
   - commands
