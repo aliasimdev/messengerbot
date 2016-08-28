@@ -1,1 +1,22 @@
 name: msgflowbot
+author: Ali
+author_avatar: 
+email: ali.cmd@gmail.com
+description: A simple bot
+avatar: 
+background: 
+config:
+  - name: msgflowbot
+    friendly_name: msgflowbot
+    info: This is an unnecessary option
+    default: the default value
+  - name: SECRET
+    friendly_name: Shhhh
+    info: This is an secret option
+    type: secret
+    default: not secret though
+    global: true
+slackscopes:
+  - bot
+  - commands
+  - incoming-webhook

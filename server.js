@@ -1,6 +1,6 @@
 var Botkit = require('botkit')
-var accessToken = process.env.FACEBOOK_PAGE_ACCESS_TOKEN
-var verifyToken = process.env.FACEBOOK_VERIFY_TOKEN
+var accessToken = 'EAACeZAKVy1ooBAAkqCXIhZCQawl1IZA3nu8EmeExGhoCSKbbDok1dJ7nnZCdwENocelb0X5I9b79nZClPE4tDttZCLBqZAHmpiUqYaywAPyOGl68IZCzqW7cdSxJGl5QI2f6qjbsn4MZB8fwL1eomqO9PGqnIZBsEjUTFBysvBXGE5zKukZAKqdULac'
+var verifyToken = 'thisisme'
 var port = proecess.env.PORT
 
 if(!accessToken) throw new Error('FACEBOOK_PAGE_ACCESS_TOKEN is required but missing')
